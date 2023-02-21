@@ -30,8 +30,8 @@ root.render(
 
       <AuthProvider
           config={ {
-              signInRedirectURL: "https://localhost:3000",
-              signOutRedirectURL: "https://localhost:3000",
+              signInRedirectURL: "https://usecase-1-react-app-template-6g44t3t24-ramith1.vercel.app/",
+              signOutRedirectURL: "https://usecase-1-react-app-template-6g44t3t24-ramith1.vercel.app/",
               clientID: "t2MNmlG35RFkia6XZi7g_3we2Zca",
               baseUrl: "https://api.asgardeo.io/t/ramith",
               scope: [ "openid","profile" ]
