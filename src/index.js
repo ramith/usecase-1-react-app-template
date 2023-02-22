@@ -7,21 +7,6 @@ import { AuthProvider } from "@asgardeo/auth-react";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-
-const Index = () => (
-    <AuthProvider
-        config={ {
-            signInRedirectURL: "https://localhost:3000",
-            signOutRedirectURL: "https://localhost:3000",
-            clientID: "t2MNmlG35RFkia6XZi7g_3we2Zca",
-            baseUrl: "https://api.asgardeo.io/t/ramith",
-            scope: [ "openid","profile" ]
-        } }
-    >
-        { /* Rest of your application.  */ }
-    </AuthProvider>
-);
-
 root.render(
   <React.StrictMode>
     <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
