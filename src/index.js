@@ -17,7 +17,7 @@ root.render(
           config={ {
               signInRedirectURL: "https://usecase-1-react-app-template.vercel.app/",
               signOutRedirectURL: "https://usecase-1-react-app-template.vercel.app/",
-              clientID: "t2MNmlG35RFkia6XZi7g_3we2Zca",
+              clientID: "DofDlvLMPpDkNJfJKQzqtxEgCBAa",
               baseUrl: "https://api.asgardeo.io/t/ramith",
               scope: [ "openid","profile" ]
           } }
