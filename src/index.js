@@ -18,7 +18,7 @@ root.render(
               signInRedirectURL: "https://usecase-1-react-app-template.vercel.app/",
               signOutRedirectURL: "https://usecase-1-react-app-template.vercel.app/",
               clientID: "DofDlvLMPpDkNJfJKQzqtxEgCBAa",
-              baseUrl: "https://api.asgardeo.io/t/ramith",
+              baseUrl: "https://api.asgardeo.io/t/ramith2023",
               scope: [ "openid","profile" ]
           } }
       >
